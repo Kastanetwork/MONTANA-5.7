@@ -10,6 +10,7 @@
 🌷 KALAU MAU RENAME TARO CREDITS GUA : ${botname}*/
 //recode : Bii
 //recode : Rafathar Offcial
+//recode : Virion
 //=================================================//
 require('./hwkal')
 const { WA_DEFAULT_EPHEMERAL, getAggregateVotesInPollMessage, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, downloadContentFromMessage, areJidsSameUser, getContentType } = require("@whiskeysockets/baileys")
@@ -228,10 +229,8 @@ m.reply(`${err}`)
 //=================================================
 async function loading () {
 var sanzytod = [
-"_Hello My Name is RafatharOffcial_",
-"_Base Script : HwMods_",
-"_Recode : RafatharOffcial_",
-"_Website api : https://api.caliph.biz.id/_",
+"_Montana By IyanSpecial_",
+"_Join My Grup Now!_",
 "_Thank you for waiting_",
 ]
 let { key } = await haikal.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})//Pengalih isu
@@ -336,7 +335,7 @@ async function sendGeekzMessage(chatId, message, options = {}){
 
 const sendapk = (teks) => {
 haikal.sendMessage(from, { document: teks, mimetype: 'application/vnd.android.package-archive'}, {quoted:m})
-m.reply('*Rusak Bodoh !! Yang Bener Contoh : Yoapk HW MODS WA*')
+m.reply('*Rusak Bodoh !! Yang Bener Contoh : Yoapk VIRION NETWORK*')
 }
 for (let ikalii of apknye) {
 if (budy === ikalii) {
@@ -347,7 +346,7 @@ sendapk(buffer)
 //=================================================//
 const sendzip = (teks) => {
 haikal.sendMessage(from, { document: teks, mimetype: 'application/zip'}, {quoted:m})
-m.reply('*Rusak Bodoh !! Yang Bener Contoh : Yozip HW MODS WA*')
+m.reply('*Rusak Bodoh !! Yang Bener Contoh : Yozip VIRION NETWORK*')
 }
 for (let ikali of zipnye) {
 if (budy === ikali) {
@@ -358,7 +357,7 @@ sendzip(buffer)
 //=================================================//
 const senddocu = (teks) => {
 haikal.sendMessage(from, { document: teks, mimetype: 'application/pdf'}, {quoted:m})
-m.reply('*Rusak Bodoh !! Yang Bener Contoh : Yopdf HW MODS WA*')
+m.reply('*Rusak Bodoh !! Yang Bener Contoh : Yopdf VIRION NETWORK*')
 }
 for (let ikal of docunye) {
 if (budy === ikal) {
@@ -894,22 +893,6 @@ ${prefix}ambilsc8
 ${prefix}ambilsc9
 ${prefix}ambilsc10 ( sc priv )
 ${prefix}ambilsc11 ( sc hw )`)
-}
-break
-case 'bugnewmenu': {
-if (!isCreator) return m.reply('*_Maaf, Sc Ini Bersifat Private_*')
-await loading()
-m.reply(`Hay Kak ${pushname} 👋 Selamat ${salam}
-Total Pengguna Premium :  ${owner.length}
-Status : ${isCreator ? 'Premium' : 'Free'}
-
-▭▬▭( *BUG NEW MENU* )▭▬▭
-
-⭔${prefix}sendrafa1 (62)
-⭔${prefix}sendrafa2 (62)
-⭔${prefix}sendrafa3 (62)
-
-*_BUG NEW BY RAFATHAR OFFCIAL😜_*`)
 }
 break
 //=================================================//
